@@ -1,0 +1,24 @@
+html body{
+    background-color: rgb(252, 196, 184);
+    font-family:serif;
+    text-align: center;
+    color: rgb(245, 165, 60);
+}
+
+h2 {
+    background-color: rgb(254,163,160)
+    }
+
+.hi {
+    background-color: rgb(217, 77, 16);
+}
+
+.puppy{
+    border: 5px solid rgb(252, 210, 177);
+    margin-right: 10px;
+}
+
+.movie{
+    border: 5px solid rgb(252, 210, 177);
+    margin-left: 10px;
+}
