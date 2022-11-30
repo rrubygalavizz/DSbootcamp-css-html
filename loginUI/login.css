@@ -1,0 +1,80 @@
+
+.header{
+    min-height:100vh;
+    width: 100%;
+    background-image: url(howlsmovingcastle.jpg);
+    background-size: cover;
+    position:relative;
+}
+
+.cal{
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 20px;
+    
+}
+
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#login{
+    position: absolute;
+    top: 25%;
+    left: 33%;
+    width: 400px;
+    height: 280px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 7px solid grey;
+    box-shadow: 7px -9px 32px 14px rgb(220, 235, 244);
+}
+#username{
+    flex-grow: 4;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+#password{
+    margin-top: 10px;
+    
+}
+
+#signin{
+    text-align: center;
+    width: 70%;
+    background:rgb(29, 144, 215);
+    border: none;
+    border-radius: 25px;
+    margin-top: 20px;
+    box-shadow: 2px -2px 9px 4px rgb(220, 235, 244);
+    font-family: serif;
+    font-size: 18;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+input[type="text"] {
+    -webkit-text-security: circle;
+    color: black;
+    flex-basis: 130px;
+    padding: 2px;
+    width: 65%;
+}
+
+@media (max-width:760px) {
+    #login{
+        height: 40%;
+        width: 40%;
+     margin-left:-35px;
+    }
+    body{
+        font-size:xx-small;
+    }
+
+   .cal{
+    margin-top: 1.8%;
+    width:35%;
+   }
+}
